@@ -1,0 +1,10 @@
+{
+  "oh_no": {
+    "sounds": [
+      {
+        "name": "broken_world_extra:minecraft-nightmare",
+        "stream": true
+      }
+    ]
+  }
+}

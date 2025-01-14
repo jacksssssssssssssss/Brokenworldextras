@@ -1,0 +1,26 @@
+{
+  "_fv": 69,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "The Limbo",
+    "rarity": "RARE",
+    "texture": "limbodisk",
+    "description": "OH_NO",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BrokenWoldExtras"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:oh_no"
+    },
+    "lengthInTicks": 1560,
+    "analogOutput": 0
+  }
+}

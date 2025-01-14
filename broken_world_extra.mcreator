@@ -1,0 +1,215 @@
+{
+  "mod_elements": [
+    {
+      "name": "TheNightmare",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_nightmare",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_world_extra/models/item/the_nightmare.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/TheNightmareItem.java"
+        ]
+      }
+    },
+    {
+      "name": "Limbobio",
+      "type": "biome",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbobio",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/worldgen/placed_feature/limbobio_tree.json",
+          "src/main/resources/data/broken_world_extra/worldgen/biome/limbobio.json",
+          "src/main/resources/data/broken_world_extra/worldgen/configured_feature/limbobio_tree.json"
+        ]
+      }
+    },
+    {
+      "name": "Limbo",
+      "type": "dimension",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/dimension_type/limbo.json",
+          "src/main/resources/data/broken_world_extra/dimension/limbo.json",
+          "src/main/java/net/mcreator/brokenworldextra/world/dimension/LimboDimension.java"
+        ]
+      }
+    },
+    {
+      "name": "LimboBagLivingEntityIsHitWithItem",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_bag_living_entity_is_hit_with_item",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/LimboBagLivingEntityIsHitWithItemProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "LimboBag",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_bag",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/LimboBagItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/limbo_bag.json"
+        ]
+      }
+    },
+    {
+      "name": "BrokenWoldExtras",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "broken_wold_extras",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "Limbobagpro",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbobagpro",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/LimbobagproProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Limbokey",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbokey",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/network/LimbokeyMessage.java"
+        ]
+      }
+    },
+    {
+      "name": "Tp",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tp",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/TpProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [
+    {
+      "name": "oh_no",
+      "files": [
+        "minecraft-nightmare"
+      ],
+      "category": "music",
+      "subtitle": ""
+    }
+  ],
+  "tag_elements": {
+    "BIOMES:minecraft:has_structure/stronghold": [
+      "~CUSTOM:Limbobio"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck_beached": [
+      "~CUSTOM:Limbobio"
+    ],
+    "BIOMES:minecraft:has_structure/shipwreck": [
+      "~CUSTOM:Limbobio"
+    ],
+    "BIOMES:minecraft:has_structure/mineshaft": [
+      "~CUSTOM:Limbobio"
+    ],
+    "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:TheNightmare"
+    ],
+    "BLOCKS:minecraft:overworld_carver_replaceables": [
+      "~Blocks.STONE#0",
+      "~Blocks.DEEPSLATE",
+      "~Blocks.GRASS"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item_group.broken_world_extra.broken_wold_extras": "Broken Wold Extras",
+      "key.broken_world_extra.limbokey": "Limbo",
+      "subtitles.oh_no": "",
+      "biome.broken_world_extra.limbobio": "Limbo",
+      "item.broken_world_extra.the_nightmare": "The Limbo",
+      "item.broken_world_extra.limbo_bag": "Limbo Bag",
+      "item.broken_world_extra.the_nightmare.desc": "OH_NO"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "broken_world_extra",
+    "modName": "broken world extra",
+    "version": "1.0.0",
+    "author": "jackh, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.brokenworldextra"
+  },
+  "mcreatorVersion": 202400342716
+}
