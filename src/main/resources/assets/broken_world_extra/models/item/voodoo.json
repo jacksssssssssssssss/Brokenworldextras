@@ -1,0 +1,7 @@
+{
+  "parent": "broken_world_extra:custom/voodo_doll",
+  "textures": {
+    "0": "broken_world_extra:block/voodo",
+    "particle": "minecraft:item/bread"
+  }
+}

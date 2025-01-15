@@ -145,6 +145,19 @@
           }
         ]
       }
+    },
+    {
+      "name": "Voodoo",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voodoo",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_world_extra/models/item/voodoo.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/VoodooItem.java"
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -183,6 +196,7 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
+      "item.broken_world_extra.voodoo": "Voodoo",
       "item_group.broken_world_extra.broken_wold_extras": "Broken Wold Extras",
       "key.broken_world_extra.limbokey": "Limbo",
       "subtitles.oh_no": "",
