@@ -11,7 +11,8 @@
           "src/main/resources/assets/broken_world_extra/models/item/the_nightmare.json",
           "src/main/java/net/mcreator/brokenworldextra/item/TheNightmareItem.java"
         ]
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
       "name": "Limbobio",
@@ -25,7 +26,8 @@
           "src/main/resources/data/broken_world_extra/worldgen/biome/limbobio.json",
           "src/main/resources/data/broken_world_extra/worldgen/configured_feature/limbobio_tree.json"
         ]
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
       "name": "Limbo",
@@ -39,7 +41,8 @@
           "src/main/resources/data/broken_world_extra/dimension/limbo.json",
           "src/main/java/net/mcreator/brokenworldextra/world/dimension/LimboDimension.java"
         ]
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
       "name": "LimboBagLivingEntityIsHitWithItem",
@@ -57,7 +60,8 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
       "name": "LimboBag",
@@ -70,7 +74,8 @@
           "src/main/java/net/mcreator/brokenworldextra/item/LimboBagItem.java",
           "src/main/resources/assets/broken_world_extra/models/item/limbo_bag.json"
         ]
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
       "name": "BrokenWoldExtras",
@@ -80,7 +85,8 @@
       "registry_name": "broken_wold_extras",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
       "name": "Limbobagpro",
@@ -114,7 +120,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
       "name": "Limbokey",
@@ -126,7 +133,8 @@
         "files": [
           "src/main/java/net/mcreator/brokenworldextra/network/LimbokeyMessage.java"
         ]
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
       "name": "Tp",
@@ -144,20 +152,47 @@
             "type": "entity"
           }
         ]
-      }
+      },
+      "path": "~/Limbo world"
     },
     {
-      "name": "Voodoo",
+      "name": "VoodooDoll",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voodoo_doll",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/VoodooDollItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/voodoo_doll.json"
+        ]
+      },
+      "path": "~/Limbo world"
+    },
+    {
+      "name": "DuckTape",
       "type": "item",
       "compiles": true,
       "locked_code": false,
-      "registry_name": "voodoo",
+      "registry_name": "duck_tape",
       "metadata": {
         "files": [
-          "src/main/resources/assets/broken_world_extra/models/item/voodoo.json",
-          "src/main/java/net/mcreator/brokenworldextra/item/VoodooItem.java"
+          "src/main/resources/assets/broken_world_extra/models/item/duck_tape.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/DuckTapeItem.java"
         ]
-      }
+      },
+      "path": "~/universal Ducktape"
+    },
+    {
+      "name": "UniversalDucktape",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "universal_ducktape",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/universal Ducktape"
     }
   ],
   "variable_elements": [],
@@ -178,6 +213,9 @@
     "BIOMES:minecraft:has_structure/shipwreck_beached": [
       "~CUSTOM:Limbobio"
     ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:VoodooDoll"
+    ],
     "BIOMES:minecraft:has_structure/shipwreck": [
       "~CUSTOM:Limbobio"
     ],
@@ -196,19 +234,30 @@
   "tab_element_order": {},
   "language_map": {
     "en_us": {
-      "item.broken_world_extra.voodoo": "Voodoo",
-      "item_group.broken_world_extra.broken_wold_extras": "Broken Wold Extras",
+      "item_group.broken_world_extra.universal_ducktape": "Universal Ducktape",
+      "item_group.broken_world_extra.broken_wold_extras": "Limbo Space",
       "key.broken_world_extra.limbokey": "Limbo",
       "subtitles.oh_no": "",
       "biome.broken_world_extra.limbobio": "Limbo",
       "item.broken_world_extra.the_nightmare": "The Limbo",
       "item.broken_world_extra.limbo_bag": "Limbo Bag",
-      "item.broken_world_extra.the_nightmare.desc": "OH_NO"
+      "item.broken_world_extra.duck_tape": "Duck Tape",
+      "item.broken_world_extra.the_nightmare.desc": "OH_NO",
+      "item.broken_world_extra.voodoo_doll": "Voodoo Doll"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Limbo world",
+        "children": []
+      },
+      {
+        "name": "universal Ducktape",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "broken_world_extra",

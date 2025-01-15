@@ -21,7 +21,7 @@ public class LimbobagproProcedure {
 			Entity _ent = entity;
 			if (!_ent.level().isClientSide() && _ent.getServer() != null) {
 				_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-						_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute in broken_world_extra:limbo run teleport @p[ team= team] ~ 132 ~");
+						_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute in broken_world_extra:limbo run teleport @e[ team= team] ~ 132 ~");
 			}
 		}
 		if (world instanceof ServerLevel _level)
@@ -61,6 +61,6 @@ public class LimbobagproProcedure {
 			}
 		}
 		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 600, 3));
+			_entity.addEffect(new MobEffectInstance(MobEffects.SLOW_FALLING, 300, 3));
 	}
 }

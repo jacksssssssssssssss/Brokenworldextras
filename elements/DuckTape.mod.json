@@ -2,19 +2,15 @@
   "_fv": 69,
   "_type": "item",
   "definition": {
-    "renderType": 1,
-    "texture": "minecraft:bread",
-    "customModelName": "voodo_doll:default",
+    "renderType": 0,
+    "texture": "un_rolled_ducktape",
+    "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Voodoo",
-    "rarity": "RARE",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:BrokenWoldExtras"
-      }
-    ],
-    "stackSize": 1,
+    "name": "Duck Tape",
+    "rarity": "UNCOMMON",
+    "creativeTabs": [],
+    "stackSize": 16,
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
@@ -37,9 +33,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onEntityHitWith": {
-      "name": "Tp"
-    },
     "enableRanged": false,
     "shootConstantly": false,
     "rangedItemChargesPower": false,

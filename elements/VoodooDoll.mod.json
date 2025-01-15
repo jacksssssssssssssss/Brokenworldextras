@@ -1,0 +1,42 @@
+{
+  "_fv": 69,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "blockingRenderType": 0,
+    "texture": "v",
+    "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
+    "name": "Voodoo Doll",
+    "specialInformation": {
+      "fixedValue": []
+    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BrokenWoldExtras"
+      }
+    ],
+    "efficiency": 1.0,
+    "attackSpeed": 2.0,
+    "enchantability": 1,
+    "damageVsEntity": 1.0,
+    "usageCount": 1,
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "repairItems": [],
+    "immuneToFire": false,
+    "blockDropsTier": "WOOD",
+    "blocksAffected": [
+      {
+        "value": "Blocks.AIR"
+      }
+    ],
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onEntityHitWith": {
+      "name": "Tp"
+    }
+  }
+}

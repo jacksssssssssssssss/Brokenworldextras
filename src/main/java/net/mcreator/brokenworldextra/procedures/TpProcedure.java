@@ -22,7 +22,7 @@ public class TpProcedure {
 			}
 		}
 		if (entity instanceof Player _player) {
-			ItemStack _stktoremove = new ItemStack(BrokenWorldExtraModItems.VOODOO.get());
+			ItemStack _stktoremove = new ItemStack(BrokenWorldExtraModItems.VOODOO_DOLL.get());
 			_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
 		}
 	}

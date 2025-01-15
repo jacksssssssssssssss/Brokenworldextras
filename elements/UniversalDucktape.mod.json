@@ -2,9 +2,9 @@
   "_fv": 69,
   "_type": "tab",
   "definition": {
-    "name": "Limbo Space",
+    "name": "Universal Ducktape",
     "icon": {
-      "value": "CUSTOM:LimboBag"
+      "value": "CUSTOM:DuckTape"
     },
     "showSearch": true
   }

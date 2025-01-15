@@ -20,6 +20,6 @@ public class BrokenWorldExtraModTabs {
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.broken_world_extra.broken_wold_extras")).icon(() -> new ItemStack(BrokenWorldExtraModItems.LIMBO_BAG.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(BrokenWorldExtraModItems.THE_NIGHTMARE.get());
 				tabData.accept(BrokenWorldExtraModItems.LIMBO_BAG.get());
-				tabData.accept(BrokenWorldExtraModItems.VOODOO.get());
+				tabData.accept(BrokenWorldExtraModItems.VOODOO_DOLL.get());
 			}).withSearchBar().build());
 }
