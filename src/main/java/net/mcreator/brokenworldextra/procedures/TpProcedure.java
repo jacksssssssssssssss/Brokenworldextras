@@ -13,7 +13,7 @@ public class TpProcedure {
 			return;
 		{
 			Entity _entityTeam = entity;
-			PlayerTeam _pt = _entityTeam.level().getScoreboard().getPlayerTeam("team");
+			PlayerTeam _pt = _entityTeam.level().getScoreboard().getPlayerTeam("team1");
 			if (_pt != null) {
 				if (_entityTeam instanceof Player _player)
 					_entityTeam.level().getScoreboard().addPlayerToTeam(_player.getGameProfile().getName(), _pt);

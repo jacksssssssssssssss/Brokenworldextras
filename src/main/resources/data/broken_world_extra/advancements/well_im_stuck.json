@@ -1,0 +1,26 @@
+{
+  "display": {
+    "background": "minecraft:textures/block/stone.png",
+    "icon": {
+      "item": "broken_world_extra:voodoo_doll"
+    },
+    "title": {
+      "translate": "advancements.well_im_stuck.title"
+    },
+    "description": {
+      "translate": "advancements.well_im_stuck.descr"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "well_im_stuck_0": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "broken_world_extra:limbo"
+      }
+    }
+  }
+}

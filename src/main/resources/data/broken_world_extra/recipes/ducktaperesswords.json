@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "  a",
+    " b ",
+    "a  "
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:diamond_sword"
+    },
+    "b": {
+      "item": "broken_world_extra:duck_tape"
+    }
+  },
+  "result": {
+    "item": "broken_world_extra:ducktapedswords",
+    "count": 1
+  }
+}

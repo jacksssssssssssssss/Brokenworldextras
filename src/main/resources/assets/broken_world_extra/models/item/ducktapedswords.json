@@ -1,0 +1,7 @@
+{
+  "parent": "broken_world_extra:custom/dule_sword",
+  "textures": {
+    "0": "broken_world_extra:block/dule",
+    "particle": "broken_world_extra:item/dule"
+  }
+}

@@ -1,12 +1,15 @@
 {
   "item_group.broken_world_extra.universal_ducktape": "Universal Ducktape",
   "item_group.broken_world_extra.broken_wold_extras": "Limbo Space",
-  "key.broken_world_extra.limbokey": "Limbo",
   "subtitles.oh_no": "",
+  "item.broken_world_extra.ducktapedswords": "Ducktapedswords",
+  "item.broken_world_extra.duck_tape": "Duck Tape",
+  "item.broken_world_extra.the_nightmare.desc": "OH_NO",
+  "key.broken_world_extra.limbokey": "Limbo",
   "biome.broken_world_extra.limbobio": "Limbo",
   "item.broken_world_extra.the_nightmare": "The Limbo",
   "item.broken_world_extra.limbo_bag": "Limbo Bag",
-  "item.broken_world_extra.duck_tape": "Duck Tape",
-  "item.broken_world_extra.the_nightmare.desc": "OH_NO",
-  "item.broken_world_extra.voodoo_doll": "Voodoo Doll"
+  "advancements.well_im_stuck.title": "Well Im Stuck",
+  "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
+  "advancements.well_im_stuck.descr": "Go to The Limbo"
 }

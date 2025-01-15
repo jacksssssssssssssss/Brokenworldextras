@@ -193,6 +193,85 @@
         "files": []
       },
       "path": "~/universal Ducktape"
+    },
+    {
+      "name": "Ducktapedswords",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ducktapedswords",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/DucktapedswordsItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/ducktapedswords.json"
+        ]
+      },
+      "path": "~/universal Ducktape"
+    },
+    {
+      "name": "Ducktaperes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ducktaperes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/ducktaperes.json"
+        ]
+      },
+      "path": "~/universal Ducktape"
+    },
+    {
+      "name": "Ducktaperesswords",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ducktaperesswords",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/ducktaperesswords.json"
+        ]
+      },
+      "path": "~/universal Ducktape"
+    },
+    {
+      "name": "WellImStuck",
+      "type": "achievement",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "well_im_stuck",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/advancements/well_im_stuck.json"
+        ]
+      },
+      "path": "~/Limbo world"
+    },
+    {
+      "name": "Voodoo",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voodoo",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/voodoo.json"
+        ]
+      },
+      "path": "~/Limbo world"
+    },
+    {
+      "name": "LimboBagres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_bagres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/limbo_bagres.json"
+        ]
+      },
+      "path": "~/Limbo world"
     }
   ],
   "variable_elements": [],
@@ -222,6 +301,9 @@
     "BIOMES:minecraft:has_structure/mineshaft": [
       "~CUSTOM:Limbobio"
     ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:Ducktapedswords"
+    ],
     "ITEMS:minecraft:music_discs": [
       "~CUSTOM:TheNightmare"
     ],
@@ -236,14 +318,17 @@
     "en_us": {
       "item_group.broken_world_extra.universal_ducktape": "Universal Ducktape",
       "item_group.broken_world_extra.broken_wold_extras": "Limbo Space",
-      "key.broken_world_extra.limbokey": "Limbo",
       "subtitles.oh_no": "",
+      "item.broken_world_extra.ducktapedswords": "Ducktapedswords",
+      "item.broken_world_extra.duck_tape": "Duck Tape",
+      "item.broken_world_extra.the_nightmare.desc": "OH_NO",
+      "key.broken_world_extra.limbokey": "Limbo",
       "biome.broken_world_extra.limbobio": "Limbo",
       "item.broken_world_extra.the_nightmare": "The Limbo",
       "item.broken_world_extra.limbo_bag": "Limbo Bag",
-      "item.broken_world_extra.duck_tape": "Duck Tape",
-      "item.broken_world_extra.the_nightmare.desc": "OH_NO",
-      "item.broken_world_extra.voodoo_doll": "Voodoo Doll"
+      "advancements.well_im_stuck.title": "Well Im Stuck",
+      "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
+      "advancements.well_im_stuck.descr": "Go to The Limbo"
     }
   },
   "foldersRoot": {

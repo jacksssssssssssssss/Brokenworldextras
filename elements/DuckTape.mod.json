@@ -9,7 +9,11 @@
     "states": [],
     "name": "Duck Tape",
     "rarity": "UNCOMMON",
-    "creativeTabs": [],
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:UniversalDucktape"
+      }
+    ],
     "stackSize": 16,
     "enchantability": 0,
     "useDuration": 0,

@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "bcb",
+    " b "
+  ],
+  "key": {
+    "a": {
+      "item": "broken_world_extra:voodoo_doll"
+    },
+    "b": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "c": {
+      "item": "minecraft:barrel"
+    }
+  },
+  "result": {
+    "item": "broken_world_extra:limbo_bag",
+    "count": 1
+  }
+}
