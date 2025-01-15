@@ -13,7 +13,7 @@
       "value": "Blocks.DEEPSLATE"
     },
     "airColor": {
-      "value": -13421773,
+      "value": -12303292,
       "falpha": 0.0
     },
     "grassColor": {
@@ -123,6 +123,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "CUSTOM:BloodAngal"
+        },
+        "minGroup": 4,
+        "maxGroup": 4,
+        "weight": 23,
+        "spawnType": "monster"
+      }
+    ]
   }
 }

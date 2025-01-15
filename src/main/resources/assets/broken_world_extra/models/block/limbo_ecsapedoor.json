@@ -1,0 +1,9 @@
+{
+  "parent": "broken_world_extra:custom/java",
+  "textures": {
+    "all": "minecraft:block/crimson_trapdoor",
+    "particle": "minecraft:block/crimson_trapdoor",
+    "0": "broken_world_extra:block/fa"
+  },
+  "render_type": "solid"
+}

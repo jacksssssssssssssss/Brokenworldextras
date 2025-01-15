@@ -5,11 +5,14 @@
   "item.broken_world_extra.ducktapedswords": "Ducktapedswords",
   "item.broken_world_extra.duck_tape": "Duck Tape",
   "item.broken_world_extra.the_nightmare.desc": "OH_NO",
+  "item.broken_world_extra.blood_angal_spawn_egg": "Blood Angel Spawn Egg",
+  "entity.broken_world_extra.blood_angal": "Blood Angel",
   "key.broken_world_extra.limbokey": "Limbo",
   "biome.broken_world_extra.limbobio": "Limbo",
   "item.broken_world_extra.the_nightmare": "The Limbo",
   "item.broken_world_extra.limbo_bag": "Limbo Bag",
   "advancements.well_im_stuck.title": "Well Im Stuck",
+  "block.broken_world_extra.limbo_ecsape_door": "Limbo Ecsape Door",
   "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
   "advancements.well_im_stuck.descr": "Go to The Limbo"
 }

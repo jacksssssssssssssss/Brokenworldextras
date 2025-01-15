@@ -20,6 +20,8 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModTabs;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModSounds;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModItems;
+import net.mcreator.brokenworldextra.init.BrokenWorldExtraModEntities;
+import net.mcreator.brokenworldextra.init.BrokenWorldExtraModBlocks;
 
 import java.util.function.Supplier;
 import java.util.function.Function;
@@ -41,8 +43,10 @@ public class BrokenWorldExtraMod {
 		MinecraftForge.EVENT_BUS.register(this);
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		BrokenWorldExtraModSounds.REGISTRY.register(bus);
+		BrokenWorldExtraModBlocks.REGISTRY.register(bus);
 
 		BrokenWorldExtraModItems.REGISTRY.register(bus);
+		BrokenWorldExtraModEntities.REGISTRY.register(bus);
 
 		BrokenWorldExtraModTabs.REGISTRY.register(bus);
 

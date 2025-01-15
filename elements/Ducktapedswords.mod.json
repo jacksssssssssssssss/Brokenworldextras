@@ -6,9 +6,9 @@
     "renderType": 1,
     "blockingRenderType": 0,
     "texture": "dule",
-    "customModelName": "dule_sword:default",
+    "customModelName": "dule_sword_v2:default",
     "blockingModelName": "Normal blocking",
-    "name": "Ducktapedswords",
+    "name": "Duck taped swords",
     "specialInformation": {
       "fixedValue": []
     },
@@ -21,11 +21,15 @@
     "attackSpeed": 2.0,
     "enchantability": 7,
     "damageVsEntity": 7.5,
-    "usageCount": 100,
+    "usageCount": 50,
     "glowCondition": {
       "fixedValue": false
     },
-    "repairItems": [],
+    "repairItems": [
+      {
+        "value": "CUSTOM:DuckTape"
+      }
+    ],
     "immuneToFire": false,
     "blockDropsTier": "WOOD",
     "blocksAffected": [],

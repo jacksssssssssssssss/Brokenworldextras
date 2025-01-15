@@ -22,9 +22,9 @@
       "registry_name": "limbobio",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_world_extra/worldgen/placed_feature/limbobio_tree.json",
+          "src/main/resources/data/broken_world_extra/worldgen/configured_feature/limbobio_tree.json",
           "src/main/resources/data/broken_world_extra/worldgen/biome/limbobio.json",
-          "src/main/resources/data/broken_world_extra/worldgen/configured_feature/limbobio_tree.json"
+          "src/main/resources/data/broken_world_extra/worldgen/placed_feature/limbobio_tree.json"
         ]
       },
       "path": "~/Limbo world"
@@ -37,9 +37,9 @@
       "registry_name": "limbo",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_world_extra/dimension_type/limbo.json",
+          "src/main/java/net/mcreator/brokenworldextra/world/dimension/LimboDimension.java",
           "src/main/resources/data/broken_world_extra/dimension/limbo.json",
-          "src/main/java/net/mcreator/brokenworldextra/world/dimension/LimboDimension.java"
+          "src/main/resources/data/broken_world_extra/dimension_type/limbo.json"
         ]
       },
       "path": "~/Limbo world"
@@ -272,6 +272,74 @@
         ]
       },
       "path": "~/Limbo world"
+    },
+    {
+      "name": "BloodAngal",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blood_angal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/forge/biome_modifier/blood_angal_biome_modifier.json",
+          "src/main/resources/assets/broken_world_extra/models/item/blood_angal_spawn_egg.json",
+          "src/main/java/net/mcreator/brokenworldextra/entity/BloodAngalEntity.java",
+          "src/main/java/net/mcreator/brokenworldextra/client/renderer/BloodAngalRenderer.java"
+        ]
+      },
+      "path": "~/Limbo world"
+    },
+    {
+      "name": "LimboEcsapeDoorOnBlockRightClicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_ecsape_door_on_block_right_clicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/LimboEcsapeDoorOnBlockRightClickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Limbo world"
+    },
+    {
+      "name": "LimboEcsapeDoor",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_ecsape_door",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/block/LimboEcsapeDoorBlock.java",
+          "src/main/resources/assets/broken_world_extra/models/block/limbo_ecsape_door.json",
+          "src/main/resources/assets/broken_world_extra/models/item/limbo_ecsape_door.json",
+          "src/main/resources/data/broken_world_extra/loot_tables/blocks/limbo_ecsape_door.json",
+          "src/main/resources/assets/broken_world_extra/blockstates/limbo_ecsape_door.json"
+        ]
+      },
+      "path": "~/Limbo world"
     }
   ],
   "variable_elements": [],
@@ -322,11 +390,14 @@
       "item.broken_world_extra.ducktapedswords": "Ducktapedswords",
       "item.broken_world_extra.duck_tape": "Duck Tape",
       "item.broken_world_extra.the_nightmare.desc": "OH_NO",
+      "item.broken_world_extra.blood_angal_spawn_egg": "Blood Angel Spawn Egg",
+      "entity.broken_world_extra.blood_angal": "Blood Angel",
       "key.broken_world_extra.limbokey": "Limbo",
       "biome.broken_world_extra.limbobio": "Limbo",
       "item.broken_world_extra.the_nightmare": "The Limbo",
       "item.broken_world_extra.limbo_bag": "Limbo Bag",
       "advancements.well_im_stuck.title": "Well Im Stuck",
+      "block.broken_world_extra.limbo_ecsape_door": "Limbo Ecsape Door",
       "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
       "advancements.well_im_stuck.descr": "Go to The Limbo"
     }

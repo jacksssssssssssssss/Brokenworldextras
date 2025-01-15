@@ -1,7 +1,7 @@
 {
   "parent": "broken_world_extra:custom/limbo_box",
   "textures": {
-    "0": "broken_world_extra:block/limbo_box",
+    "1": "broken_world_extra:block/dfda",
     "particle": "minecraft:item/bundle"
   }
 }

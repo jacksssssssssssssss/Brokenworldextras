@@ -4,13 +4,16 @@ package net.mcreator.brokenworldextra.item;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
+import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+
+import net.mcreator.brokenworldextra.init.BrokenWorldExtraModItems;
 
 public class DucktapedswordsItem extends SwordItem {
 	public DucktapedswordsItem() {
 		super(new Tier() {
 			public int getUses() {
-				return 100;
+				return 50;
 			}
 
 			public float getSpeed() {
@@ -30,7 +33,7 @@ public class DucktapedswordsItem extends SwordItem {
 			}
 
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(BrokenWorldExtraModItems.DUCK_TAPE.get()));
 			}
 		}, 3, -2f, new Item.Properties());
 	}
