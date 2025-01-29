@@ -12,7 +12,7 @@
           "src/main/java/net/mcreator/brokenworldextra/item/TheNightmareItem.java"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "Limbobio",
@@ -27,7 +27,7 @@
           "src/main/resources/data/broken_world_extra/worldgen/placed_feature/limbobio_tree.json"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "Limbo",
@@ -42,7 +42,7 @@
           "src/main/resources/data/broken_world_extra/dimension_type/limbo.json"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "LimboBagLivingEntityIsHitWithItem",
@@ -61,7 +61,7 @@
           }
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "LimboBag",
@@ -75,7 +75,7 @@
           "src/main/resources/assets/broken_world_extra/models/item/limbo_bag.json"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "BrokenWoldExtras",
@@ -86,7 +86,7 @@
       "metadata": {
         "files": []
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "Limbobagpro",
@@ -121,7 +121,7 @@
           }
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "Limbokey",
@@ -134,7 +134,7 @@
           "src/main/java/net/mcreator/brokenworldextra/network/LimbokeyMessage.java"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "Tp",
@@ -153,7 +153,7 @@
           }
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "VoodooDoll",
@@ -167,7 +167,7 @@
           "src/main/resources/assets/broken_world_extra/models/item/voodoo_doll.json"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "DuckTape",
@@ -245,7 +245,7 @@
           "src/main/resources/data/broken_world_extra/advancements/well_im_stuck.json"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "Voodoo",
@@ -258,7 +258,7 @@
           "src/main/resources/data/broken_world_extra/recipes/voodoo.json"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "LimboBagres",
@@ -271,7 +271,7 @@
           "src/main/resources/data/broken_world_extra/recipes/limbo_bagres.json"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "BloodAngal",
@@ -281,13 +281,12 @@
       "registry_name": "blood_angal",
       "metadata": {
         "files": [
-          "src/main/resources/data/broken_world_extra/forge/biome_modifier/blood_angal_biome_modifier.json",
           "src/main/resources/assets/broken_world_extra/models/item/blood_angal_spawn_egg.json",
           "src/main/java/net/mcreator/brokenworldextra/entity/BloodAngalEntity.java",
           "src/main/java/net/mcreator/brokenworldextra/client/renderer/BloodAngalRenderer.java"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "LimboEcsapeDoorOnBlockRightClicked",
@@ -322,7 +321,7 @@
           }
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
     },
     {
       "name": "LimboEcsapeDoor",
@@ -339,7 +338,447 @@
           "src/main/resources/assets/broken_world_extra/blockstates/limbo_ecsape_door.json"
         ]
       },
-      "path": "~/Limbo world"
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "DeepslateOre",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "deepslate_ore",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/DeepslateOreItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/deepslate_ore.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "LimboInogt",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_inogt",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/limbo_inogt.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "LimboDoor",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_door",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/limbo_door.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "VoodooDollRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "voodoo_doll_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/VoodooDollRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "Waystones",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "waystones",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/WaystonesProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "LimboBuilding",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_building",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/worldgen/structure_set/limbo_building.json",
+          "src/main/resources/data/broken_world_extra/worldgen/structure/limbo_building.json",
+          "src/main/resources/data/broken_world_extra/worldgen/template_pool/limbo_building.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "Limbocity2",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbodooor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/worldgen/template_pool/limbodooor.json",
+          "src/main/resources/data/broken_world_extra/worldgen/structure_set/limbodooor.json",
+          "src/main/resources/data/broken_world_extra/worldgen/structure/limbodooor.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "Anchentportal",
+      "type": "structure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anchentportal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/worldgen/structure/anchentportal.json",
+          "src/main/resources/data/broken_world_extra/worldgen/structure_set/anchentportal.json",
+          "src/main/resources/data/broken_world_extra/worldgen/template_pool/anchentportal.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "TheMaker",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_maker",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/TheMakerItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/the_maker.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "LimboblockEntityWalksOnTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limboblock_entity_walks_on_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/LimboblockEntityWalksOnTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "Limboblock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limboblock",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/loot_tables/blocks/limboblock.json",
+          "src/main/resources/assets/broken_world_extra/models/block/limboblock.json",
+          "src/main/java/net/mcreator/brokenworldextra/block/LimboblockBlock.java",
+          "src/main/resources/assets/broken_world_extra/models/item/limboblock.json",
+          "src/main/resources/assets/broken_world_extra/blockstates/limboblock.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "TheMakerRightclickedOnBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_maker_rightclicked_on_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/TheMakerRightclickedOnBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "CreeperEntityCollidesInTheBlock",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper_entity_collides_in_the_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/CreeperEntityCollidesInTheBlockProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "Creeper",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creeper",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/block/CreeperBlock.java",
+          "src/main/resources/data/broken_world_extra/loot_tables/blocks/creeper.json",
+          "src/main/resources/assets/broken_world_extra/models/block/creeper.json",
+          "src/main/resources/assets/broken_world_extra/models/item/creeper.json",
+          "src/main/resources/assets/broken_world_extra/blockstates/creeper.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "C4OnInitialEntitySpawn",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4_on_initial_entity_spawn",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/C4OnInitialEntitySpawnProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "C4",
+      "type": "livingentity",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "c_4",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/entity/C4Entity.java",
+          "src/main/java/net/mcreator/brokenworldextra/client/renderer/C4Renderer.java",
+          "src/main/resources/assets/broken_world_extra/models/item/c_4_spawn_egg.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Grenade",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grenade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_world_extra/models/item/grenade.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/GrenadeItem.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Cfore",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cfore",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/cfore.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "DropChestBlockAdded",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_chest_block_added",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/DropChestBlockAddedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "DropChest",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_chest",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/loot_tables/blocks/drop_chest.json",
+          "src/main/resources/assets/broken_world_extra/models/block/drop_chest.json",
+          "src/main/java/net/mcreator/brokenworldextra/block/DropChestBlock.java",
+          "src/main/resources/assets/broken_world_extra/models/item/drop_chest.json",
+          "src/main/resources/assets/broken_world_extra/blockstates/drop_chest.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Remote",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_world_extra/models/item/remote.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/RemoteItem.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "RemoteRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "remote_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/RemoteRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "DropChestloot",
+      "type": "loottable",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "drop_chestloot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/loot_tables/chests/drop_chest.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Limboremote",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limboremote",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/limboremote.json"
+        ]
+      },
+      "path": "~/War update"
     }
   ],
   "variable_elements": [],
@@ -359,6 +798,9 @@
     ],
     "BIOMES:minecraft:has_structure/shipwreck_beached": [
       "~CUSTOM:Limbobio"
+    ],
+    "BLOCKS:minecraft:mineable/hoe": [
+      "~CUSTOM:Limboblock"
     ],
     "ITEMS:minecraft:pickaxes": [
       "~CUSTOM:VoodooDoll"
@@ -387,18 +829,27 @@
       "item_group.broken_world_extra.universal_ducktape": "Universal Ducktape",
       "item_group.broken_world_extra.broken_wold_extras": "Limbo Space",
       "subtitles.oh_no": "",
-      "item.broken_world_extra.ducktapedswords": "Ducktapedswords",
+      "item.broken_world_extra.remote": "Remote limbo",
+      "item.broken_world_extra.deepslate_ore": "Compressed Ingot",
+      "item.broken_world_extra.ducktapedswords": "Duck taped swords",
       "item.broken_world_extra.duck_tape": "Duck Tape",
-      "item.broken_world_extra.the_nightmare.desc": "OH_NO",
-      "item.broken_world_extra.blood_angal_spawn_egg": "Blood Angel Spawn Egg",
+      "item.broken_world_extra.c_4_spawn_egg": "C4 Spawn Egg",
       "entity.broken_world_extra.blood_angal": "Blood Angel",
       "key.broken_world_extra.limbokey": "Limbo",
-      "biome.broken_world_extra.limbobio": "Limbo",
+      "block.broken_world_extra.creeper": "Broken Creeper",
       "item.broken_world_extra.the_nightmare": "The Limbo",
-      "item.broken_world_extra.limbo_bag": "Limbo Bag",
+      "item.broken_world_extra.limbo_bag": "Pot of the Dead ",
+      "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
+      "block.broken_world_extra.limboblock": "Limbo",
+      "block.broken_world_extra.drop_chest": "Drop Barrel",
+      "item.broken_world_extra.the_nightmare.desc": "OH_NO",
+      "item.broken_world_extra.grenade": "Grenade non explosive",
+      "item.broken_world_extra.blood_angal_spawn_egg": "Blood Angel Spawn Egg",
+      "item.broken_world_extra.the_maker": "Limbo_maker ",
+      "entity.broken_world_extra.c_4": "C4",
+      "biome.broken_world_extra.limbobio": "Limbo",
       "advancements.well_im_stuck.title": "Well Im Stuck",
       "block.broken_world_extra.limbo_ecsape_door": "Limbo Ecsape Door",
-      "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
       "advancements.well_im_stuck.descr": "Go to The Limbo"
     }
   },
@@ -406,11 +857,15 @@
     "name": "~",
     "children": [
       {
-        "name": "Limbo world",
+        "name": "The Mortal Realm",
         "children": []
       },
       {
         "name": "universal Ducktape",
+        "children": []
+      },
+      {
+        "name": "War update",
         "children": []
       }
     ]
@@ -426,8 +881,11 @@
     "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [],
+    "mcreatorDependencies": [
+      "geckolib"
+    ],
     "currentGenerator": "forge-1.20.1",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
     "modElementsPackage": "net.mcreator.brokenworldextra"
   },
   "mcreatorVersion": 202400342716

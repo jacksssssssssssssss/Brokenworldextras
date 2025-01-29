@@ -3,6 +3,13 @@
   "temperature": 0.3,
   "downfall": 1,
   "effects": {
+    "ambient_sound": "ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
     "foliage_color": -10053376,
     "grass_color": -13395712,
     "sky_color": -12303292,
@@ -13,10 +20,10 @@
   "spawners": {
     "monster": [
       {
-        "type": "broken_world_extra:blood_angal",
-        "weight": 23,
-        "minCount": 4,
-        "maxCount": 4
+        "type": "vex",
+        "weight": 12,
+        "minCount": 2,
+        "maxCount": 6
       }
     ],
     "creature": [],

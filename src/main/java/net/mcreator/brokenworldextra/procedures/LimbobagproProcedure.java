@@ -22,38 +22,15 @@ public class LimbobagproProcedure {
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute in broken_world_extra:limbo run teleport @e[ team= team1] ~ 132 ~");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute in broken_world_extra:limbo run teleport @e[ team= team1] ~ ~ ~");
 				}
 			}
 			if (world instanceof ServerLevel _level)
 				_level.sendParticles(ParticleTypes.LARGE_SMOKE, x, y, z, 100, 3, 3, 3, 0.1);
-			if (entity instanceof LivingEntity _entity)
-				_entity.removeAllEffects();
-			if (entity instanceof Player _player)
-				_player.getInventory().clearContent();
-			BrokenWorldExtraMod.queueServerWork(20, () -> {
-				{
-					Entity _ent = entity;
-					if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute run spawnpoint @p");
-					}
-				}
-				{
-					Entity _ent = entity;
-					if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute run spawnpoint @p");
-					}
-				}
-				{
-					Entity _ent = entity;
-					if (!_ent.level().isClientSide() && _ent.getServer() != null) {
-						_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-								_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute run spawnpoint @p");
-					}
-				}
-			});
+			if (entity instanceof Player _player) {
+				ItemStack _stktoremove = new ItemStack(BrokenWorldExtraModItems.LIMBO_BAG.get());
+				_player.getInventory().clearOrCountMatchingItems(p -> _stktoremove.getItem() == p.getItem(), 1, _player.inventoryMenu.getCraftSlots());
+			}
 			{
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
@@ -65,7 +42,7 @@ public class LimbobagproProcedure {
 				Entity _ent = entity;
 				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
 					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
-							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute in broken_world_extra:limbo run effect give @e[ team= team1 ] minecraft:slow_falling 21 4");
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute if dimension broken_world_extra:limbo in broken_world_extra:limbo run spawnpoint @a ~ ~ ~");
 				}
 			}
 			{
@@ -84,6 +61,13 @@ public class LimbobagproProcedure {
 					}
 				}
 			});
+			{
+				Entity _ent = entity;
+				if (!_ent.level().isClientSide() && _ent.getServer() != null) {
+					_ent.getServer().getCommands().performPrefixedCommand(new CommandSourceStack(CommandSource.NULL, _ent.position(), _ent.getRotationVector(), _ent.level() instanceof ServerLevel ? (ServerLevel) _ent.level() : null, 4,
+							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute in broken_world_extra:limbo run effect give @e[ team= team1 ] minecraft:slow_falling 21 4");
+				}
+			}
 		}
 	}
 }

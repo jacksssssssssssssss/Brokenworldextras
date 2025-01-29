@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "broken_world_extra:block/drop_chest"
+    },
+    "facing=east": {
+      "model": "broken_world_extra:block/drop_chest",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "broken_world_extra:block/drop_chest",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "broken_world_extra:block/drop_chest",
+      "y": 270
+    }
+  }
+}

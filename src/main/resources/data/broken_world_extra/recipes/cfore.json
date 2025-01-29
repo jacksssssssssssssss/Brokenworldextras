@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "broken_world_extra:duck_tape"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "broken_world_extra:grenade"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    },
+    {
+      "item": "minecraft:gunpowder"
+    }
+  ],
+  "result": {
+    "item": "broken_world_extra:c_4_spawn_egg",
+    "count": 1
+  }
+}

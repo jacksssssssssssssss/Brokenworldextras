@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.DEEPSLATE_BRICK_SLAB"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Items.IRON_DOOR"
+      },
+      {
+        "value": "CUSTOM:DeepslateOre"
+      },
+      {
+        "value": "Blocks.IRON_DOOR"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_BRICK_SLAB"
+      },
+      {
+        "value": "CUSTOM:DeepslateOre"
+      },
+      {
+        "value": "Blocks.DEEPSLATE_BRICK_SLAB"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:LimboEcsapeDoor"
+    },
+    "name": "limbo_door",
+    "namespace": "mod"
+  }
+}

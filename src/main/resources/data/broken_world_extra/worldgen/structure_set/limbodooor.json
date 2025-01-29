@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "broken_world_extra:limbodooor",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 61,
+    "separation": 30,
+    "salt": 1284950786
+  }
+}

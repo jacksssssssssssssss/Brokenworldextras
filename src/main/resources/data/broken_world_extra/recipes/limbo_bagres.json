@@ -11,10 +11,10 @@
       "item": "broken_world_extra:voodoo_doll"
     },
     "b": {
-      "item": "minecraft:netherite_ingot"
+      "item": "broken_world_extra:deepslate_ore"
     },
     "c": {
-      "item": "minecraft:barrel"
+      "item": "minecraft:decorated_pot"
     }
   },
   "result": {

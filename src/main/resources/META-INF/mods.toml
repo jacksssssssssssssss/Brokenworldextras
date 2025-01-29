@@ -21,6 +21,12 @@ authors="jackh, MCreator"
     side="BOTH"
 
 
+[[dependencies.broken_world_extra]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
 
 
 # Start of user code block dependencies configuration

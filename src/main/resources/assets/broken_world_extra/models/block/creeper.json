@@ -1,0 +1,9 @@
+{
+  "parent": "broken_world_extra:custom/broken_creeper",
+  "textures": {
+    "all": "minecraft:block/anvil",
+    "particle": "minecraft:block/anvil",
+    "0": "broken_world_extra:block/creeper"
+  },
+  "render_type": "solid"
+}

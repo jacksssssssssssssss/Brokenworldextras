@@ -1,0 +1,7 @@
+{
+  "parent": "broken_world_extra:custom/gras",
+  "textures": {
+    "1": "broken_world_extra:block/",
+    "particle": "minecraft:item/bamboo_hanging_sign"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "broken_world_extra:block/creeper"
+    },
+    "facing=east": {
+      "model": "broken_world_extra:block/creeper",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "broken_world_extra:block/creeper",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "broken_world_extra:block/creeper",
+      "y": 270
+    }
+  }
+}

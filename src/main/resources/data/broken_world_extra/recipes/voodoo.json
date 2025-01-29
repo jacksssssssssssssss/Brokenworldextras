@@ -11,7 +11,7 @@
       "item": "minecraft:hay_block"
     },
     "b": {
-      "item": "minecraft:netherite_ingot"
+      "item": "broken_world_extra:deepslate_ore"
     },
     "c": {
       "item": "minecraft:totem_of_undying"

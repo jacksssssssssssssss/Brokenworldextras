@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "broken_world_extra:block/limvo",
+    "up": "broken_world_extra:block/limvo",
+    "north": "broken_world_extra:block/limvo",
+    "east": "broken_world_extra:block/limvo",
+    "south": "broken_world_extra:block/limvo",
+    "west": "broken_world_extra:block/limvo",
+    "particle": "broken_world_extra:block/limvo"
+  },
+  "render_type": "solid"
+}

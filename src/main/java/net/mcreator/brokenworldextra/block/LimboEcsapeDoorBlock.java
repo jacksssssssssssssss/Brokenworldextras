@@ -1,6 +1,8 @@
 
 package net.mcreator.brokenworldextra.block;
 
+import org.checkerframework.checker.units.qual.s;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -21,17 +23,12 @@ import net.mcreator.brokenworldextra.procedures.LimboEcsapeDoorOnBlockRightClick
 
 public class LimboEcsapeDoorBlock extends Block {
 	public LimboEcsapeDoorBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.GRAVEL).strength(1f, 10f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-	}
-
-	@Override
-	public boolean propagatesSkylightDown(BlockState state, BlockGetter reader, BlockPos pos) {
-		return true;
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(2.25f, 1.5f).lightLevel(s -> 6).friction(0.1f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
-		return 0;
+		return 7;
 	}
 
 	@Override

@@ -33,7 +33,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "ambient.basalt_deltas.loop"
     },
     "additionsSound": {
       "value": ""
@@ -42,7 +42,7 @@
       "value": ""
     },
     "moodSound": {
-      "value": ""
+      "value": "ambient.basalt_deltas.mood"
     },
     "moodSoundDelay": 6000,
     "spawnParticles": false,
@@ -126,11 +126,11 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "CUSTOM:BloodAngal"
+          "value": "EntityVex"
         },
-        "minGroup": 4,
-        "maxGroup": 4,
-        "weight": 23,
+        "minGroup": 2,
+        "maxGroup": 6,
+        "weight": 12,
         "spawnType": "monster"
       }
     ]

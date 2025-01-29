@@ -15,9 +15,13 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.brokenworldextra.item.VoodooDollItem;
 import net.mcreator.brokenworldextra.item.TheNightmareItem;
+import net.mcreator.brokenworldextra.item.TheMakerItem;
+import net.mcreator.brokenworldextra.item.RemoteItem;
 import net.mcreator.brokenworldextra.item.LimboBagItem;
+import net.mcreator.brokenworldextra.item.GrenadeItem;
 import net.mcreator.brokenworldextra.item.DucktapedswordsItem;
 import net.mcreator.brokenworldextra.item.DuckTapeItem;
+import net.mcreator.brokenworldextra.item.DeepslateOreItem;
 import net.mcreator.brokenworldextra.BrokenWorldExtraMod;
 
 public class BrokenWorldExtraModItems {
@@ -29,6 +33,14 @@ public class BrokenWorldExtraModItems {
 	public static final RegistryObject<Item> DUCKTAPEDSWORDS = REGISTRY.register("ducktapedswords", () -> new DucktapedswordsItem());
 	public static final RegistryObject<Item> BLOOD_ANGAL_SPAWN_EGG = REGISTRY.register("blood_angal_spawn_egg", () -> new ForgeSpawnEggItem(BrokenWorldExtraModEntities.BLOOD_ANGAL, -6724096, -6724096, new Item.Properties()));
 	public static final RegistryObject<Item> LIMBO_ECSAPE_DOOR = block(BrokenWorldExtraModBlocks.LIMBO_ECSAPE_DOOR);
+	public static final RegistryObject<Item> DEEPSLATE_ORE = REGISTRY.register("deepslate_ore", () -> new DeepslateOreItem());
+	public static final RegistryObject<Item> THE_MAKER = REGISTRY.register("the_maker", () -> new TheMakerItem());
+	public static final RegistryObject<Item> LIMBOBLOCK = block(BrokenWorldExtraModBlocks.LIMBOBLOCK);
+	public static final RegistryObject<Item> CREEPER = block(BrokenWorldExtraModBlocks.CREEPER);
+	public static final RegistryObject<Item> C_4_SPAWN_EGG = REGISTRY.register("c_4_spawn_egg", () -> new ForgeSpawnEggItem(BrokenWorldExtraModEntities.C_4, -3407872, -10066330, new Item.Properties()));
+	public static final RegistryObject<Item> GRENADE = REGISTRY.register("grenade", () -> new GrenadeItem());
+	public static final RegistryObject<Item> DROP_CHEST = block(BrokenWorldExtraModBlocks.DROP_CHEST);
+	public static final RegistryObject<Item> REMOTE = REGISTRY.register("remote", () -> new RemoteItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

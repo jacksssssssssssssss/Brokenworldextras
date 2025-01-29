@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " ab",
+    "aca",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "broken_world_extra:deepslate_ore"
+    },
+    "b": {
+      "item": "minecraft:string"
+    },
+    "c": {
+      "item": "broken_world_extra:the_nightmare"
+    }
+  },
+  "result": {
+    "item": "broken_world_extra:remote",
+    "count": 1
+  }
+}

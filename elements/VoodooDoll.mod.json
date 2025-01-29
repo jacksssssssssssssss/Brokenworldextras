@@ -21,7 +21,7 @@
     "attackSpeed": 2.0,
     "enchantability": 1,
     "damageVsEntity": 1.0,
-    "usageCount": 1,
+    "usageCount": 3,
     "glowCondition": {
       "fixedValue": false
     },
@@ -35,6 +35,9 @@
     ],
     "stayInGridWhenCrafting": false,
     "damageOnCrafting": false,
+    "onRightClickedInAir": {
+      "name": "VoodooDollRightclicked"
+    },
     "onEntityHitWith": {
       "name": "Tp"
     }

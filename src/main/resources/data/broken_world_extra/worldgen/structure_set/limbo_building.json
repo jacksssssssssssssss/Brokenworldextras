@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "broken_world_extra:limbo_building",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 60,
+    "separation": 40,
+    "salt": 1976699583
+  }
+}
