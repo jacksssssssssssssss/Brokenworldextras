@@ -22,7 +22,7 @@ public class DropChestBlockAddedProcedure {
 							_ent.getName().getString(), _ent.getDisplayName(), _ent.level().getServer(), _ent), "/execute run setblock ~ ~ ~ minecraft:barrel[facing=south]{LootTable: \"minecraft:chests/drop_chest\"} destroy");
 				}
 			}
+			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 		});
-		world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 	}
 }

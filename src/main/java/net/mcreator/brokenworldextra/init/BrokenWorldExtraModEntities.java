@@ -17,6 +17,7 @@ import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
 
 import net.mcreator.brokenworldextra.entity.C4Entity;
+import net.mcreator.brokenworldextra.entity.BulletEntity;
 import net.mcreator.brokenworldextra.entity.BloodAngalEntity;
 import net.mcreator.brokenworldextra.BrokenWorldExtraMod;
 
@@ -31,6 +32,8 @@ public class BrokenWorldExtraModEntities {
 			EntityType.Builder.<C4Entity>of(C4Entity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(C4Entity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BulletEntity>> BULLET = register("bullet",
+			EntityType.Builder.<BulletEntity>of(BulletEntity::new, MobCategory.MISC).setCustomClientFactory(BulletEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));

@@ -43,6 +43,9 @@ public class BrokenWorldExtraModTabs {
 				tabData.accept(BrokenWorldExtraModBlocks.CREEPER.get().asItem());
 				tabData.accept(BrokenWorldExtraModBlocks.DROP_CHEST.get().asItem());
 				tabData.accept(BrokenWorldExtraModItems.REMOTE.get());
+				tabData.accept(BrokenWorldExtraModItems.LIMBO_PROTONACCELERATOR.get());
+				tabData.accept(BrokenWorldExtraModItems.RIFLE_ANIMATED.get());
+				tabData.accept(BrokenWorldExtraModItems.BULLETITEM.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

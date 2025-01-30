@@ -16,12 +16,15 @@ import net.minecraft.world.item.BlockItem;
 import net.mcreator.brokenworldextra.item.VoodooDollItem;
 import net.mcreator.brokenworldextra.item.TheNightmareItem;
 import net.mcreator.brokenworldextra.item.TheMakerItem;
+import net.mcreator.brokenworldextra.item.RifleAnimatedItem;
 import net.mcreator.brokenworldextra.item.RemoteItem;
+import net.mcreator.brokenworldextra.item.LimboProtonacceleratorItem;
 import net.mcreator.brokenworldextra.item.LimboBagItem;
 import net.mcreator.brokenworldextra.item.GrenadeItem;
 import net.mcreator.brokenworldextra.item.DucktapedswordsItem;
 import net.mcreator.brokenworldextra.item.DuckTapeItem;
 import net.mcreator.brokenworldextra.item.DeepslateOreItem;
+import net.mcreator.brokenworldextra.item.BulletitemItem;
 import net.mcreator.brokenworldextra.BrokenWorldExtraMod;
 
 public class BrokenWorldExtraModItems {
@@ -41,6 +44,9 @@ public class BrokenWorldExtraModItems {
 	public static final RegistryObject<Item> GRENADE = REGISTRY.register("grenade", () -> new GrenadeItem());
 	public static final RegistryObject<Item> DROP_CHEST = block(BrokenWorldExtraModBlocks.DROP_CHEST);
 	public static final RegistryObject<Item> REMOTE = REGISTRY.register("remote", () -> new RemoteItem());
+	public static final RegistryObject<Item> LIMBO_PROTONACCELERATOR = REGISTRY.register("limbo_protonaccelerator", () -> new LimboProtonacceleratorItem());
+	public static final RegistryObject<Item> RIFLE_ANIMATED = REGISTRY.register("rifle_animated", () -> new RifleAnimatedItem());
+	public static final RegistryObject<Item> BULLETITEM = REGISTRY.register("bulletitem", () -> new BulletitemItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

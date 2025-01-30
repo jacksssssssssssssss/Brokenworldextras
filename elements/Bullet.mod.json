@@ -1,0 +1,27 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Bulletitem"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.firework.blast"
+    },
+    "igniteFire": false,
+    "power": 0.4,
+    "damage": 1.3,
+    "knockback": 2,
+    "entityModel": "Modelbullet",
+    "customModelTexture": "bullet_old.png",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsPlayer": {
+      "name": "BulletProjectileHitsPlayer"
+    },
+    "onHitsEntity": {
+      "name": "BulletProjectileHitsPlayer"
+    }
+  }
+}

@@ -18,20 +18,22 @@ import com.mojang.blaze3d.vertex.PoseStack;
 // Made with Blockbench 4.12.2
 // Exported for Minecraft version 1.17 or later with Mojang mappings
 // Paste this class into your mod and generate all required imports
-public class ModelCustomModel<T extends Entity> extends EntityModel<T> {
+public class Modelbullet<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("broken_world_extra", "model_custom_model"), "main");
+	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("broken_world_extra", "modelbullet"), "main");
 	public final ModelPart bb_main;
 
-	public ModelCustomModel(ModelPart root) {
+	public Modelbullet(ModelPart root) {
 		this.bb_main = root.getChild("bb_main");
 	}
 
 	public static LayerDefinition createBodyLayer() {
 		MeshDefinition meshdefinition = new MeshDefinition();
 		PartDefinition partdefinition = meshdefinition.getRoot();
-		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main", CubeListBuilder.create().texOffs(0, 0).addBox(-1.0F, -3.0F, -4.0F, 3.0F, 3.0F, 8.0F, new CubeDeformation(0.0F)), PartPose.offset(0.0F, 24.0F, 0.0F));
+		PartDefinition bb_main = partdefinition.addOrReplaceChild("bb_main", CubeListBuilder.create(), PartPose.offset(0.0F, 24.0F, 0.0F));
+		PartDefinition cube_r1 = bb_main.addOrReplaceChild("cube_r1", CubeListBuilder.create().texOffs(0, 0).addBox(-1.0F, -3.0F, -4.0F, 3.0F, 3.0F, 8.0F, new CubeDeformation(0.0F)),
+				PartPose.offsetAndRotation(1.0F, -4.0F, 2.0F, 1.5708F, 0.0F, 3.1416F));
 		return LayerDefinition.create(meshdefinition, 32, 32);
 	}
 

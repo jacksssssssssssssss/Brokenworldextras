@@ -1,0 +1,6 @@
+{
+  "parent": "broken_world_extra:displaysettings/blaster_2_-_converted",
+  "textures": {
+    "layer0": "broken_world_extra:item/blaster2"
+  }
+}

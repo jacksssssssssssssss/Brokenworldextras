@@ -613,7 +613,7 @@
           }
         ]
       },
-      "path": "~/War update"
+      "path": "~/save for later"
     },
     {
       "name": "C4",
@@ -628,7 +628,7 @@
           "src/main/resources/assets/broken_world_extra/models/item/c_4_spawn_egg.json"
         ]
       },
-      "path": "~/War update"
+      "path": "~/save for later"
     },
     {
       "name": "Grenade",
@@ -642,20 +642,7 @@
           "src/main/java/net/mcreator/brokenworldextra/item/GrenadeItem.java"
         ]
       },
-      "path": "~/War update"
-    },
-    {
-      "name": "Cfore",
-      "type": "recipe",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cfore",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/broken_world_extra/recipes/cfore.json"
-        ]
-      },
-      "path": "~/War update"
+      "path": "~/save for later"
     },
     {
       "name": "DropChestBlockAdded",
@@ -779,6 +766,212 @@
         ]
       },
       "path": "~/War update"
+    },
+    {
+      "name": "LimboProtonaccelerator",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_protonaccelerator",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/LimboProtonacceleratorItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/limbo_protonaccelerator.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/model/LimboProtonacceleratorItemModel.java",
+          "src/main/java/net/mcreator/brokenworldextra/item/renderer/LimboProtonacceleratorItemRenderer.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "LimboProtonacceleratorRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "limbo_protonaccelerator_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/LimboProtonacceleratorRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "RifleAnimated",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rifle_animated",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/RifleAnimatedItem.java",
+          "src/main/java/net/mcreator/brokenworldextra/item/renderer/RifleAnimatedItemRenderer.java",
+          "src/main/java/net/mcreator/brokenworldextra/item/model/RifleAnimatedItemModel.java",
+          "src/main/resources/assets/broken_world_extra/models/item/rifle_animated.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "RifleAnimatedRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rifle_animated_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/RifleAnimatedRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Bulletitem",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bulletitem",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/broken_world_extra/models/item/bulletitem.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/BulletitemItem.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Bullet",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/entity/BulletEntity.java",
+          "src/main/java/net/mcreator/brokenworldextra/client/renderer/BulletRenderer.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "BulletProjectileHitsPlayer",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bullet_projectile_hits_player",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/BulletProjectileHitsPlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Bleedingiscool",
+      "type": "damagetype",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleedingiscool",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/damage_type/bleedingiscool.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "BleedingEffectExpires",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding_effect_expires",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/BleedingEffectExpiresProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Bleeding",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bleeding",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/potion/BleedingMobEffect.java"
+        ]
+      },
+      "path": "~/War update"
     }
   ],
   "variable_elements": [],
@@ -828,23 +1021,30 @@
     "en_us": {
       "item_group.broken_world_extra.universal_ducktape": "Universal Ducktape",
       "item_group.broken_world_extra.broken_wold_extras": "Limbo Space",
+      "death.attack.bleedingiscool": "%1$s died from blood loss",
       "subtitles.oh_no": "",
-      "item.broken_world_extra.remote": "Remote limbo",
+      "item.broken_world_extra.bulletitem": "Old Bullet",
+      "item.broken_world_extra.rifle_animated": "Limbo Pipe Rifle  ",
+      "item.broken_world_extra.remote": "Limbo Drop Remote",
       "item.broken_world_extra.deepslate_ore": "Compressed Ingot",
+      "item.broken_world_extra.limbo_protonaccelerator": "Limbo Pipe Pistol",
       "item.broken_world_extra.ducktapedswords": "Duck taped swords",
       "item.broken_world_extra.duck_tape": "Duck Tape",
       "item.broken_world_extra.c_4_spawn_egg": "C4 Spawn Egg",
       "entity.broken_world_extra.blood_angal": "Blood Angel",
       "key.broken_world_extra.limbokey": "Limbo",
+      "death.attack.bleedingiscool.item": "%1$s was killed by %2$s using %3$s",
       "block.broken_world_extra.creeper": "Broken Creeper",
       "item.broken_world_extra.the_nightmare": "The Limbo",
       "item.broken_world_extra.limbo_bag": "Pot of the Dead ",
+      "effect.broken_world_extra.bleeding": "Bleeding",
       "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
       "block.broken_world_extra.limboblock": "Limbo",
       "block.broken_world_extra.drop_chest": "Drop Barrel",
       "item.broken_world_extra.the_nightmare.desc": "OH_NO",
       "item.broken_world_extra.grenade": "Grenade non explosive",
       "item.broken_world_extra.blood_angal_spawn_egg": "Blood Angel Spawn Egg",
+      "death.attack.bleedingiscool.player": "%1$s died whilst trying to escape %2$s",
       "item.broken_world_extra.the_maker": "Limbo_maker ",
       "entity.broken_world_extra.c_4": "C4",
       "biome.broken_world_extra.limbobio": "Limbo",
@@ -866,6 +1066,10 @@
       },
       {
         "name": "War update",
+        "children": []
+      },
+      {
+        "name": "save for later",
         "children": []
       }
     ]
