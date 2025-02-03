@@ -972,6 +972,250 @@
         ]
       },
       "path": "~/War update"
+    },
+    {
+      "name": "GliderItemInHandTick",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glider_item_in_hand_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/GliderItemInHandTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Glider",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "glider",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/model/GliderItemModel.java",
+          "src/main/resources/assets/broken_world_extra/models/item/glider.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/GliderItem.java",
+          "src/main/java/net/mcreator/brokenworldextra/item/renderer/GliderItemRenderer.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "TheNightmareRes",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_nightmare_res",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/the_nightmare_res.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "Nail",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nail",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/nail.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Gliderres",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gliderres",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/broken_world_extra/recipes/gliderres.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "NailShotgun",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nail_shotgun",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/NailShotgunItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/nail_shotgun.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/renderer/NailShotgunItemRenderer.java",
+          "src/main/java/net/mcreator/brokenworldextra/item/model/NailShotgunItemModel.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "NailShotgunRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nail_shotgun_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/NailShotgunRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "TheNIghmarenotes",
+      "type": "musicdisc",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "the_n_ighmarenotes",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/TheNIghmarenotesItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/the_n_ighmarenotes.json"
+        ]
+      },
+      "path": "~/The Mortal Realm"
+    },
+    {
+      "name": "PotionSiniperrifal",
+      "type": "animateditem",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_siniperrifal",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/model/PotionSiniperrifalItemModel.java",
+          "src/main/java/net/mcreator/brokenworldextra/item/renderer/PotionSiniperrifalItemRenderer.java",
+          "src/main/resources/assets/broken_world_extra/models/item/potion_siniperrifal.json",
+          "src/main/java/net/mcreator/brokenworldextra/item/PotionSiniperrifalItem.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "PotionSiniperrifalRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potion_siniperrifal_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/PotionSiniperrifalRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Potbullet",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potbullet",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/item/PotbulletItem.java",
+          "src/main/resources/assets/broken_world_extra/models/item/potbullet.json"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Pot",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/entity/PotEntity.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "PotbulletRightclicked",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "potbullet_rightclicked",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/PotbulletRightclickedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/War update"
     }
   ],
   "variable_elements": [],
@@ -980,6 +1224,14 @@
       "name": "oh_no",
       "files": [
         "minecraft-nightmare"
+      ],
+      "category": "music",
+      "subtitle": ""
+    },
+    {
+      "name": "limbo",
+      "files": [
+        "minecraft-nightmare-_1_"
       ],
       "category": "music",
       "subtitle": ""
@@ -1008,6 +1260,7 @@
       "~CUSTOM:Ducktapedswords"
     ],
     "ITEMS:minecraft:music_discs": [
+      "~CUSTOM:TheNIghmarenotes",
       "~CUSTOM:TheNightmare"
     ],
     "BLOCKS:minecraft:overworld_carver_replaceables": [
@@ -1016,32 +1269,60 @@
       "~Blocks.GRASS"
     ]
   },
-  "tab_element_order": {},
+  "tab_element_order": {
+    "CUSTOM:BrokenWoldExtras": [
+      "TheNightmare",
+      "TheNIghmarenotes",
+      "LimboBag",
+      "VoodooDoll",
+      "BloodAngal",
+      "TheMaker",
+      "Limboblock",
+      "DeepslateOre",
+      "LimboEcsapeDoor",
+      "Creeper",
+      "DropChest",
+      "Remote",
+      "LimboProtonaccelerator",
+      "RifleAnimated",
+      "NailShotgun",
+      "Bulletitem",
+      "Glider",
+      "Potbullet"
+    ]
+  },
   "language_map": {
     "en_us": {
       "item_group.broken_world_extra.universal_ducktape": "Universal Ducktape",
       "item_group.broken_world_extra.broken_wold_extras": "Limbo Space",
       "death.attack.bleedingiscool": "%1$s died from blood loss",
+      "item.broken_world_extra.nail_shotgun": "Nail Shotgun",
       "subtitles.oh_no": "",
-      "item.broken_world_extra.bulletitem": "Old Bullet",
-      "item.broken_world_extra.rifle_animated": "Limbo Pipe Rifle  ",
+      "item.broken_world_extra.bulletitem": "Old nail",
+      "item.broken_world_extra.glider": "Glider",
+      "item.broken_world_extra.rifle_animated": "Nail Pipe Rifle  ",
       "item.broken_world_extra.remote": "Limbo Drop Remote",
       "item.broken_world_extra.deepslate_ore": "Compressed Ingot",
-      "item.broken_world_extra.limbo_protonaccelerator": "Limbo Pipe Pistol",
+      "item.broken_world_extra.limbo_protonaccelerator": "Nail Pipe Pistol",
       "item.broken_world_extra.ducktapedswords": "Duck taped swords",
       "item.broken_world_extra.duck_tape": "Duck Tape",
+      "item.broken_world_extra.potion_siniperrifal": "Potion Siniperrifal",
       "item.broken_world_extra.c_4_spawn_egg": "C4 Spawn Egg",
       "entity.broken_world_extra.blood_angal": "Blood Angel",
       "key.broken_world_extra.limbokey": "Limbo",
       "death.attack.bleedingiscool.item": "%1$s was killed by %2$s using %3$s",
       "block.broken_world_extra.creeper": "Broken Creeper",
+      "item.broken_world_extra.the_n_ighmarenotes": "The Limbo note verson",
+      "item.broken_world_extra.the_n_ighmarenotes.desc": "The Limbo note verson",
       "item.broken_world_extra.the_nightmare": "The Limbo",
       "item.broken_world_extra.limbo_bag": "Pot of the Dead ",
       "effect.broken_world_extra.bleeding": "Bleeding",
       "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
       "block.broken_world_extra.limboblock": "Limbo",
+      "subtitles.limbo": "",
+      "item.broken_world_extra.potbullet": "Unique Potion of the week",
       "block.broken_world_extra.drop_chest": "Drop Barrel",
-      "item.broken_world_extra.the_nightmare.desc": "OH_NO",
+      "item.broken_world_extra.the_nightmare.desc": "made by Anbobo2010 ",
       "item.broken_world_extra.grenade": "Grenade non explosive",
       "item.broken_world_extra.blood_angal_spawn_egg": "Blood Angel Spawn Egg",
       "death.attack.bleedingiscool.player": "%1$s died whilst trying to escape %2$s",

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aba",
+    " a "
+  ],
+  "key": {
+    "a": {
+      "item": "broken_world_extra:deepslate_ore"
+    },
+    "b": {
+      "item": "minecraft:music_disc_cat"
+    }
+  },
+  "result": {
+    "item": "broken_world_extra:the_nightmare",
+    "count": 1
+  }
+}

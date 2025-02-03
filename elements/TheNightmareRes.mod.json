@@ -1,0 +1,48 @@
+{
+  "_fv": 69,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeepslateOre"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeepslateOre"
+      },
+      {
+        "value": "Items.RECORD_CAT"
+      },
+      {
+        "value": "CUSTOM:DeepslateOre"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:DeepslateOre"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:TheNightmare"
+    },
+    "name": "the_nightmare_res",
+    "namespace": "mod"
+  }
+}

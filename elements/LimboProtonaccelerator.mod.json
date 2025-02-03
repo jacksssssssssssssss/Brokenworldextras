@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "blaster",
-    "name": "Limbo Pipe Pistol",
+    "name": "Nail Pipe Pistol",
     "idle": "Idle",
     "rarity": "UNCOMMON",
     "displaySettings": "blaster_1_-_converted.json",
@@ -20,13 +20,13 @@
     "enchantability": 0,
     "useDuration": 1600,
     "toolType": 1.0,
-    "damageCount": 150,
+    "damageCount": 1500,
     "recipeRemainder": {
-      "value": "CUSTOM:DeepslateOre"
+      "value": "Items.COPPER_INGOT"
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "enableArmPose": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

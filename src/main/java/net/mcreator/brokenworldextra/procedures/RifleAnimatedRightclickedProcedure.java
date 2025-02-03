@@ -34,16 +34,17 @@ public class RifleAnimatedRightclickedProcedure {
 					Level projectileLevel = _shootFrom.level();
 					if (!projectileLevel.isClientSide()) {
 						Projectile _entityToSpawn = new Object() {
-							public Projectile getArrow(Level level, float damage, int knockback) {
+							public Projectile getArrow(Level level, float damage, int knockback, byte piercing) {
 								AbstractArrow entityToSpawn = new BulletEntity(BrokenWorldExtraModEntities.BULLET.get(), level);
 								entityToSpawn.setBaseDamage(damage);
 								entityToSpawn.setKnockback(knockback);
 								entityToSpawn.setSilent(true);
+								entityToSpawn.setPierceLevel(piercing);
 								return entityToSpawn;
 							}
-						}.getArrow(projectileLevel, 3, 1);
+						}.getArrow(projectileLevel, 2, 1, (byte) 400);
 						_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
-						_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 10, 0);
+						_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 5, 3);
 						projectileLevel.addFreshEntity(_entityToSpawn);
 					}
 				}
@@ -58,7 +59,7 @@ public class RifleAnimatedRightclickedProcedure {
 				}
 			});
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(itemstack.getItem(), 10);
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 5);
 			{
 				ItemStack _ist = itemstack;
 				if (_ist.hurt(5, RandomSource.create(), null)) {

@@ -9,6 +9,7 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
 
+import net.mcreator.brokenworldextra.client.model.Modelnail;
 import net.mcreator.brokenworldextra.client.model.Modelgras_Converted;
 import net.mcreator.brokenworldextra.client.model.Modelbullet;
 import net.mcreator.brokenworldextra.client.model.ModelCustomModel;
@@ -20,5 +21,6 @@ public class BrokenWorldExtraModModels {
 		event.registerLayerDefinition(Modelbullet.LAYER_LOCATION, Modelbullet::createBodyLayer);
 		event.registerLayerDefinition(ModelCustomModel.LAYER_LOCATION, ModelCustomModel::createBodyLayer);
 		event.registerLayerDefinition(Modelgras_Converted.LAYER_LOCATION, Modelgras_Converted::createBodyLayer);
+		event.registerLayerDefinition(Modelnail.LAYER_LOCATION, Modelnail::createBodyLayer);
 	}
 }

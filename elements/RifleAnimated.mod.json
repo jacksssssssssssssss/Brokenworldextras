@@ -4,7 +4,7 @@
   "definition": {
     "renderType": 0,
     "texture": "blaster2",
-    "name": "Limbo Pipe Rifle  ",
+    "name": "Nail Pipe Rifle  ",
     "idle": "Idle",
     "rarity": "RARE",
     "displaySettings": "blaster_2_-_converted.json",
@@ -20,13 +20,13 @@
     "enchantability": 0,
     "useDuration": 0,
     "toolType": 1.0,
-    "damageCount": 250,
+    "damageCount": 800,
     "recipeRemainder": {
-      "value": "CUSTOM:DeepslateOre"
+      "value": "Items.COPPER_INGOT"
     },
     "destroyAnyBlock": false,
     "immuneToFire": false,
-    "stayInGridWhenCrafting": false,
+    "stayInGridWhenCrafting": true,
     "enableArmPose": false,
     "damageOnCrafting": false,
     "enableMeleeDamage": false,

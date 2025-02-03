@@ -15,12 +15,17 @@ import net.minecraft.world.item.BlockItem;
 
 import net.mcreator.brokenworldextra.item.VoodooDollItem;
 import net.mcreator.brokenworldextra.item.TheNightmareItem;
+import net.mcreator.brokenworldextra.item.TheNIghmarenotesItem;
 import net.mcreator.brokenworldextra.item.TheMakerItem;
 import net.mcreator.brokenworldextra.item.RifleAnimatedItem;
 import net.mcreator.brokenworldextra.item.RemoteItem;
+import net.mcreator.brokenworldextra.item.PotionSiniperrifalItem;
+import net.mcreator.brokenworldextra.item.PotbulletItem;
+import net.mcreator.brokenworldextra.item.NailShotgunItem;
 import net.mcreator.brokenworldextra.item.LimboProtonacceleratorItem;
 import net.mcreator.brokenworldextra.item.LimboBagItem;
 import net.mcreator.brokenworldextra.item.GrenadeItem;
+import net.mcreator.brokenworldextra.item.GliderItem;
 import net.mcreator.brokenworldextra.item.DucktapedswordsItem;
 import net.mcreator.brokenworldextra.item.DuckTapeItem;
 import net.mcreator.brokenworldextra.item.DeepslateOreItem;
@@ -47,6 +52,11 @@ public class BrokenWorldExtraModItems {
 	public static final RegistryObject<Item> LIMBO_PROTONACCELERATOR = REGISTRY.register("limbo_protonaccelerator", () -> new LimboProtonacceleratorItem());
 	public static final RegistryObject<Item> RIFLE_ANIMATED = REGISTRY.register("rifle_animated", () -> new RifleAnimatedItem());
 	public static final RegistryObject<Item> BULLETITEM = REGISTRY.register("bulletitem", () -> new BulletitemItem());
+	public static final RegistryObject<Item> GLIDER = REGISTRY.register("glider", () -> new GliderItem());
+	public static final RegistryObject<Item> NAIL_SHOTGUN = REGISTRY.register("nail_shotgun", () -> new NailShotgunItem());
+	public static final RegistryObject<Item> THE_N_IGHMARENOTES = REGISTRY.register("the_n_ighmarenotes", () -> new TheNIghmarenotesItem());
+	public static final RegistryObject<Item> POTION_SINIPERRIFAL = REGISTRY.register("potion_siniperrifal", () -> new PotionSiniperrifalItem());
+	public static final RegistryObject<Item> POTBULLET = REGISTRY.register("potbullet", () -> new PotbulletItem());
 
 	// Start of user code block custom items
 	// End of user code block custom items

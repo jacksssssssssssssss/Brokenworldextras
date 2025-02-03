@@ -1,0 +1,28 @@
+{
+  "_fv": 69,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "The Limbo note verson",
+    "rarity": "RARE",
+    "texture": "limbo",
+    "description": "The Limbo note verson",
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:BrokenWoldExtras"
+      }
+    ],
+    "specialInformation": {
+      "fixedValue": [
+        "made by Anbobo2010 "
+      ]
+    },
+    "glowCondition": {
+      "fixedValue": false
+    },
+    "music": {
+      "value": "CUSTOM:limbo"
+    },
+    "lengthInTicks": 1560,
+    "analogOutput": 0
+  }
+}

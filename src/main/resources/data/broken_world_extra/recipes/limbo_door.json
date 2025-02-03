@@ -4,7 +4,7 @@
   "pattern": [
     " a ",
     "bcd",
-    "aca"
+    "aea"
   ],
   "key": {
     "a": {
@@ -18,6 +18,9 @@
     },
     "d": {
       "item": "minecraft:iron_door"
+    },
+    "e": {
+      "item": "minecraft:diamond_block"
     }
   },
   "result": {

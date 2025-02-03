@@ -16,7 +16,7 @@ import com.mojang.blaze3d.vertex.VertexConsumer;
 import com.mojang.blaze3d.vertex.PoseStack;
 
 public class BulletRenderer extends EntityRenderer<BulletEntity> {
-	private static final ResourceLocation texture = new ResourceLocation("broken_world_extra:textures/entities/bullet_old.png");
+	private static final ResourceLocation texture = new ResourceLocation("broken_world_extra:textures/entities/nail.png");
 	private final Modelbullet model;
 
 	public BulletRenderer(EntityRendererProvider.Context context) {

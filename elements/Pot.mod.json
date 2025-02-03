@@ -1,0 +1,27 @@
+{
+  "_fv": 69,
+  "_type": "projectile",
+  "definition": {
+    "projectileItem": {
+      "value": "CUSTOM:Potbullet"
+    },
+    "showParticles": false,
+    "actionSound": {
+      "value": "entity.arrow.shoot"
+    },
+    "igniteFire": false,
+    "power": 0.5,
+    "damage": 1.0,
+    "knockback": 6,
+    "entityModel": "Default",
+    "customModelTexture": "",
+    "modelWidth": 0.5,
+    "modelHeight": 0.5,
+    "onHitsPlayer": {
+      "name": "PotbulletRightclicked"
+    },
+    "onHitsEntity": {
+      "name": "PotbulletRightclicked"
+    }
+  }
+}

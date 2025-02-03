@@ -15,6 +15,7 @@ import net.minecraftforge.client.extensions.common.IClientItemExtensions;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Rarity;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.entity.player.Player;
@@ -38,7 +39,7 @@ public class RifleAnimatedItem extends Item implements GeoItem {
 	public String animationprocedure = "empty";
 
 	public RifleAnimatedItem() {
-		super(new Item.Properties().durability(250).rarity(Rarity.RARE));
+		super(new Item.Properties().durability(800).rarity(Rarity.RARE));
 	}
 
 	@Override
@@ -106,6 +107,16 @@ public class RifleAnimatedItem extends Item implements GeoItem {
 	@Override
 	public AnimatableInstanceCache getAnimatableInstanceCache() {
 		return this.cache;
+	}
+
+	@Override
+	public boolean hasCraftingRemainingItem() {
+		return true;
+	}
+
+	@Override
+	public ItemStack getCraftingRemainingItem(ItemStack itemstack) {
+		return new ItemStack(Items.COPPER_INGOT);
 	}
 
 	@Override

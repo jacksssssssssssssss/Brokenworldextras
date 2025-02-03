@@ -1,0 +1,97 @@
+{
+  "credit": "Made with Blockbench",
+  "parent": "builtin/entity",
+  "texture_size": [
+    32,
+    32
+  ],
+  "display": {
+    "thirdperson_righthand": {
+      "translation": [
+        0,
+        -1,
+        -1.5
+      ],
+      "scale": [
+        0.54,
+        0.54,
+        0.49
+      ]
+    },
+    "thirdperson_lefthand": {
+      "translation": [
+        0,
+        -1,
+        -1.25
+      ],
+      "scale": [
+        0.43,
+        0.45,
+        0.46
+      ]
+    },
+    "firstperson_righthand": {
+      "rotation": [
+        0,
+        17,
+        0
+      ],
+      "translation": [
+        0,
+        2.5,
+        0
+      ]
+    },
+    "firstperson_lefthand": {
+      "rotation": [
+        0,
+        34,
+        0
+      ],
+      "translation": [
+        0,
+        2,
+        0
+      ]
+    },
+    "gui": {
+      "rotation": [
+        0,
+        87,
+        0
+      ],
+      "translation": [
+        0,
+        -2,
+        0
+      ],
+      "scale": [
+        0.34,
+        0.36,
+        0.34
+      ]
+    },
+    "head": {
+      "translation": [
+        0,
+        -7.75,
+        0
+      ],
+      "scale": [
+        0.77,
+        0.76,
+        0.74
+      ]
+    },
+    "fixed": {
+      "translation": [
+        0,
+        -3,
+        0
+      ]
+    }
+  },
+  "textures": {
+    "particle": "item/blaster2"
+  }
+}
