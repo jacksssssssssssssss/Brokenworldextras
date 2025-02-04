@@ -74,7 +74,7 @@
             },
             "weight": 25,
             "minCount": 12,
-            "maxCount": 31,
+            "maxCount": 20,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -112,10 +112,24 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:NailShotgun"
+              "value": "CUSTOM:Potbullet"
             },
-            "weight": 3,
+            "weight": 15,
             "minCount": 1,
+            "maxCount": 3,
+            "minEnchantmentLevel": 0,
+            "maxEnchantmentLevel": 0,
+            "affectedByFortune": false,
+            "explosionDecay": false,
+            "silkTouchMode": 0
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:PotionSiniperrifal"
+            },
+            "weight": 5,
+            "minCount": 0,
             "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,

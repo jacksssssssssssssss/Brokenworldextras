@@ -42,7 +42,7 @@ public class RifleAnimatedRightclickedProcedure {
 								entityToSpawn.setPierceLevel(piercing);
 								return entityToSpawn;
 							}
-						}.getArrow(projectileLevel, 2, 1, (byte) 400);
+						}.getArrow(projectileLevel, (float) 0.5, 1, (byte) 400);
 						_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 						_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 5, 3);
 						projectileLevel.addFreshEntity(_entityToSpawn);

@@ -34,8 +34,8 @@ public class OpenwaclomeScreen extends AbstractContainerScreen<OpenwaclomeMenu> 
 		this.y = container.y;
 		this.z = container.z;
 		this.entity = container.entity;
-		this.imageWidth = 241;
-		this.imageHeight = 139;
+		this.imageWidth = 399;
+		this.imageHeight = 226;
 	}
 
 	private static final ResourceLocation texture = new ResourceLocation("broken_world_extra:textures/screens/openwaclome.png");
@@ -45,7 +45,7 @@ public class OpenwaclomeScreen extends AbstractContainerScreen<OpenwaclomeMenu> 
 		this.renderBackground(guiGraphics);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		if (PlayerProcedure.execute(world, x, y, z, entity) instanceof LivingEntity livingEntity) {
-			InventoryScreen.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + 120, this.topPos + 106, 15, 0f + (float) Math.atan((this.leftPos + 120 - mouseX) / 40.0), (float) Math.atan((this.topPos + 57 - mouseY) / 40.0),
+			InventoryScreen.renderEntityInInventoryFollowsAngle(guiGraphics, this.leftPos + 199, this.topPos + 158, 15, 0f + (float) Math.atan((this.leftPos + 199 - mouseX) / 40.0), (float) Math.atan((this.topPos + 109 - mouseY) / 40.0),
 					livingEntity);
 		}
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
@@ -71,7 +71,12 @@ public class OpenwaclomeScreen extends AbstractContainerScreen<OpenwaclomeMenu> 
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
-		guiGraphics.drawString(this.font, Component.translatable("gui.broken_world_extra.openwaclome.label_walcome_to_the_world"), 66, 53, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.broken_world_extra.openwaclome.label_walcome_to_the_world"), 134, 113, -16777216, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.broken_world_extra.openwaclome.label_rules_1_dont_lie"), 84, 36, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.broken_world_extra.openwaclome.label_rules_2_dont_cheat_unless_you"), 85, 54, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.broken_world_extra.openwaclome.label_rules_3_dont_use_foul_language"), 84, 72, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.broken_world_extra.openwaclome.label_rule_6_no_useing_end_items_till"), 83, 88, -12829636, false);
+		guiGraphics.drawString(this.font, Component.translatable("gui.broken_world_extra.openwaclome.label_rule_5_to_no_tipped_arrows_and_s"), 14, 98, -12829636, false);
 	}
 
 	@Override
@@ -82,7 +87,7 @@ public class OpenwaclomeScreen extends AbstractContainerScreen<OpenwaclomeMenu> 
 				BrokenWorldExtraMod.PACKET_HANDLER.sendToServer(new OpenwaclomeButtonMessage(0, x, y, z));
 				OpenwaclomeButtonMessage.handleButtonAction(entity, 0, x, y, z);
 			}
-		}).bounds(this.leftPos + 87, this.topPos + 107, 67, 20).build();
+		}).bounds(this.leftPos + 166, this.topPos + 165, 67, 20).build();
 		guistate.put("button:button_continue", button_continue);
 		this.addRenderableWidget(button_continue);
 	}

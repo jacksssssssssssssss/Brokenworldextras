@@ -31,7 +31,7 @@ public class PotionSiniperrifalItem extends Item implements GeoItem {
 	public String animationprocedure = "empty";
 
 	public PotionSiniperrifalItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.EPIC));
 	}
 
 	@Override

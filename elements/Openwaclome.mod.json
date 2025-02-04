@@ -3,8 +3,8 @@
   "_type": "gui",
   "definition": {
     "type": 0,
-    "width": 241,
-    "height": 139,
+    "width": 399,
+    "height": 226,
     "inventoryOffsetX": 0,
     "inventoryOffsetY": 0,
     "renderBgLayer": true,
@@ -20,7 +20,7 @@
           "rotationX": 0,
           "followMouseMovement": true,
           "x": 203,
-          "y": 137
+          "y": 145
         }
       },
       {
@@ -28,14 +28,14 @@
         "data": {
           "name": "label_walcome_to_the_world",
           "text": {
-            "fixedValue": "Walcome To The World"
+            "fixedValue": "Walcome To The Broken World"
           },
           "color": {
             "value": -16777216,
             "falpha": 0.0
           },
-          "x": 159,
-          "y": 104
+          "x": 148,
+          "y": 120
         }
       },
       {
@@ -50,7 +50,82 @@
           "width": 67,
           "height": 20,
           "x": 180,
-          "y": 158
+          "y": 172
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rules_1_dont_lie",
+          "text": {
+            "fixedValue": "Rules 1: don't lie"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 98,
+          "y": 43
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rules_2_dont_cheat_unless_you",
+          "text": {
+            "fixedValue": "Rules 2:: don't cheat unless you have to"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 99,
+          "y": 61
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rules_3_dont_use_foul_language",
+          "text": {
+            "fixedValue": "Rules 3: don't use foul language "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 98,
+          "y": 79
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rule_6_no_useing_end_items_till",
+          "text": {
+            "fixedValue": "rule 4 no useing END items till after the end fight"
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 97,
+          "y": 95
+        }
+      },
+      {
+        "type": "label",
+        "data": {
+          "name": "label_rule_5_to_no_tipped_arrows_and_s",
+          "text": {
+            "fixedValue": "rule 5 to NO tipped arrows and splash and lingering pots that do damage "
+          },
+          "color": {
+            "value": -12829636,
+            "falpha": 0.0
+          },
+          "x": 28,
+          "y": 105
         }
       }
     ],

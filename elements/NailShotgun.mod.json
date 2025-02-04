@@ -10,11 +10,7 @@
     "displaySettings": "blaser3.json",
     "leftArm": "",
     "rightArm": "",
-    "creativeTabs": [
-      {
-        "value": "CUSTOM:BrokenWoldExtras"
-      }
-    ],
+    "creativeTabs": [],
     "firstPersonArms": false,
     "stackSize": 1,
     "enchantability": 0,

@@ -39,7 +39,7 @@ public class RifleAnimatedItem extends Item implements GeoItem {
 	public String animationprocedure = "empty";
 
 	public RifleAnimatedItem() {
-		super(new Item.Properties().durability(800).rarity(Rarity.RARE));
+		super(new Item.Properties().durability(350).rarity(Rarity.RARE));
 	}
 
 	@Override

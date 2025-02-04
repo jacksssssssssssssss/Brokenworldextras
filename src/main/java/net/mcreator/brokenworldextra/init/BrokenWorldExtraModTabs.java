@@ -46,10 +46,10 @@ public class BrokenWorldExtraModTabs {
 				tabData.accept(BrokenWorldExtraModItems.REMOTE.get());
 				tabData.accept(BrokenWorldExtraModItems.LIMBO_PROTONACCELERATOR.get());
 				tabData.accept(BrokenWorldExtraModItems.RIFLE_ANIMATED.get());
-				tabData.accept(BrokenWorldExtraModItems.NAIL_SHOTGUN.get());
+				tabData.accept(BrokenWorldExtraModItems.POTION_SINIPERRIFAL.get());
 				tabData.accept(BrokenWorldExtraModItems.BULLETITEM.get());
-				tabData.accept(BrokenWorldExtraModItems.GLIDER.get());
 				tabData.accept(BrokenWorldExtraModItems.POTBULLET.get());
+				tabData.accept(BrokenWorldExtraModItems.GLIDER.get());
 			}).withSearchBar().build());
 
 	@SubscribeEvent

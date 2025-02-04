@@ -42,7 +42,7 @@ public class LimboProtonacceleratorRightclickedProcedure {
 								entityToSpawn.setPierceLevel(piercing);
 								return entityToSpawn;
 							}
-						}.getArrow(projectileLevel, 1, 1, (byte) 50);
+						}.getArrow(projectileLevel, 2, 1, (byte) 50);
 						_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
 						_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 4, 0);
 						projectileLevel.addFreshEntity(_entityToSpawn);

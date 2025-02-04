@@ -42,9 +42,9 @@ public class PotionSiniperrifalRightclickedProcedure {
 								entityToSpawn.setPierceLevel(piercing);
 								return entityToSpawn;
 							}
-						}.getArrow(projectileLevel, (float) 0.5, 1, (byte) 3);
+						}.getArrow(projectileLevel, 2, 1, (byte) 3);
 						_entityToSpawn.setPos(_shootFrom.getX(), _shootFrom.getEyeY() - 0.1, _shootFrom.getZ());
-						_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 5, 3);
+						_entityToSpawn.shoot(_shootFrom.getLookAngle().x, _shootFrom.getLookAngle().y, _shootFrom.getLookAngle().z, 8, 1);
 						projectileLevel.addFreshEntity(_entityToSpawn);
 					}
 				}
@@ -59,7 +59,7 @@ public class PotionSiniperrifalRightclickedProcedure {
 				}
 			});
 			if (entity instanceof Player _player)
-				_player.getCooldowns().addCooldown(itemstack.getItem(), 200);
+				_player.getCooldowns().addCooldown(itemstack.getItem(), 500);
 			{
 				ItemStack _ist = itemstack;
 				if (_ist.hurt(5, RandomSource.create(), null)) {
