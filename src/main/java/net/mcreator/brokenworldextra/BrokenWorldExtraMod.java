@@ -20,6 +20,7 @@ import net.minecraft.network.FriendlyByteBuf;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModTabs;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModSounds;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModMobEffects;
+import net.mcreator.brokenworldextra.init.BrokenWorldExtraModMenus;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModItems;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModEntities;
 import net.mcreator.brokenworldextra.init.BrokenWorldExtraModBlocks;
@@ -52,6 +53,8 @@ public class BrokenWorldExtraMod {
 		BrokenWorldExtraModTabs.REGISTRY.register(bus);
 
 		BrokenWorldExtraModMobEffects.REGISTRY.register(bus);
+
+		BrokenWorldExtraModMenus.REGISTRY.register(bus);
 
 		// Start of user code block mod init
 		// End of user code block mod init

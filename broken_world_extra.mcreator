@@ -1186,19 +1186,6 @@
       "path": "~/War update"
     },
     {
-      "name": "Pot",
-      "type": "projectile",
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "pot",
-      "metadata": {
-        "files": [
-          "src/main/java/net/mcreator/brokenworldextra/entity/PotEntity.java"
-        ]
-      },
-      "path": "~/War update"
-    },
-    {
       "name": "PotbulletRightclicked",
       "type": "procedure",
       "compiles": true,
@@ -1213,6 +1200,175 @@
             "name": "entity",
             "type": "entity"
           }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "ScopeInOnKeyPressed",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scope_in_on_key_pressed",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/ScopeInOnKeyPressedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "ScopeInOnKeyReleased",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scope_in_on_key_released",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/ScopeInOnKeyReleasedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Player",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "player",
+      "metadata": {
+        "return_type": "entity",
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/PlayerProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Openwaclome",
+      "type": "gui",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "openwaclome",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/world/inventory/OpenwaclomeMenu.java",
+          "src/main/java/net/mcreator/brokenworldextra/client/gui/OpenwaclomeScreen.java",
+          "src/main/java/net/mcreator/brokenworldextra/network/OpenwaclomeButtonMessage.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Close",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "close",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/CloseProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Join",
+      "type": "procedure",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "join",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/procedures/JoinProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Scope",
+      "type": "keybind",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scope",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/network/ScopeMessage.java"
+        ]
+      },
+      "path": "~/War update"
+    },
+    {
+      "name": "Pot",
+      "type": "projectile",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pot",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/brokenworldextra/entity/PotEntity.java"
         ]
       },
       "path": "~/War update"
@@ -1317,7 +1473,10 @@
       "item.broken_world_extra.the_nightmare": "The Limbo",
       "item.broken_world_extra.limbo_bag": "Pot of the Dead ",
       "effect.broken_world_extra.bleeding": "Bleeding",
+      "gui.broken_world_extra.openwaclome.button_continue": "Continue",
       "item.broken_world_extra.voodoo_doll": "Voodoo Doll",
+      "key.broken_world_extra.scope_in": "Scope In",
+      "key.broken_world_extra.scope": "Scope",
       "block.broken_world_extra.limboblock": "Limbo",
       "subtitles.limbo": "",
       "item.broken_world_extra.potbullet": "Unique Potion of the week",
@@ -1325,6 +1484,7 @@
       "item.broken_world_extra.the_nightmare.desc": "made by Anbobo2010 ",
       "item.broken_world_extra.grenade": "Grenade non explosive",
       "item.broken_world_extra.blood_angal_spawn_egg": "Blood Angel Spawn Egg",
+      "gui.broken_world_extra.openwaclome.label_walcome_to_the_world": "Walcome To The World",
       "death.attack.bleedingiscool.player": "%1$s died whilst trying to escape %2$s",
       "item.broken_world_extra.the_maker": "Limbo_maker ",
       "entity.broken_world_extra.c_4": "C4",
