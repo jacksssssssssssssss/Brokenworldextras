@@ -34,7 +34,7 @@ public class BrokenWorldExtraModKeyMappings {
 			isDownOld = isDown;
 		}
 	};
-	public static final KeyMapping SCOPE = new KeyMapping("key.broken_world_extra.scope", GLFW.GLFW_KEY_Z, "key.categories.misc") {
+	public static final KeyMapping SCOPE = new KeyMapping("key.broken_world_extra.scope", GLFW.GLFW_KEY_R, "key.categories.misc") {
 		private boolean isDownOld = false;
 
 		@Override
